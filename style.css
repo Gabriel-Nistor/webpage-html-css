@@ -1,0 +1,137 @@
+/* for using rem units, 10px = 1rem
+html {
+    font-size: 62.5%;
+}
+/* testing link */
+
+/* body {
+    background-color: rgb(97, 157, 167);
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-section {
+    background-color: rgb(1, 39, 75);
+    background-image: url("./ice.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+.top-headings h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.top-headings h1:nth-child(1) {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+#main-section p {
+    text-align: center;
+    padding: 0 140px;
+}
+
+#side-menu button {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    background: none;
+}
+
+#side-menu button:active {
+    border: none;
+    outline: none;
+}
+
+#side-menu button:focus {
+    outline: none;
+}
+
+#side-menu button span {
+    color: rgb(223, 189, 0);
+}
+
+#side-menu button:hover {
+    cursor: pointer;
+    color: rgb(223, 189, 0);
+}
+
+.nav-bar {
+    float: right;
+}
+
+.nav-bar li {
+    list-style: none;
+    float: left;
+    margin: 3px 7px;
+}
+
+.nav-bar li:last-child {
+    margin-right: 60px;
+}
+
+.nav-bar a {
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.nav-bar a:hover {
+    color: rgb(223, 189, 0);
+}
+
+.center {
+    text-align: center;
+}
+
+#front-buttons { 
+    margin-top: 50px;
+
+}
+
+#front-buttons button {
+    border-radius: 20px;
+    color: rgb(182, 168, 88);
+    background: none;
+    outline: rgb(182, 168, 88);
+    padding: 13px 22px;
+    margin: 20px 10px;
+    text-transform: uppercase;
+    border: 1px solid rgb(182, 168, 88);
+}
+
+#front-buttons button:hover {
+    color: white;
+    background-color: rgb(223, 189, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+  
+}
+
+#arrow-pointer {
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+    padding: 60px;
+   font-family: cursive;
+   padding-bottom: 20px;
+}

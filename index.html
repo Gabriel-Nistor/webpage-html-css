@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- language attribute for accessibility requirement -->
+<html lang="en-GB">
+
+    <head>
+        <title>My Project 01</title>
+        <!-- add an icon to the page title bar -->
+        <link rel="shortcut icon" type="image/x-icon" href="testingIco.ico">
+        <!-- character encoding, UTF-8 can display any character in the Unicode standard -->
+        <meta charset="utf-8">
+        <!-- setting the viewport to make the website look good on all devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- define keywords for search engines -->
+        <meta name="keywords" content="words, separated, by, comma">
+        <!-- define a description of your web page -->
+        <meta name="description" content="Description of the webpage">
+        <!-- Define the author of a page: -->
+        <meta name="author" content="The Name">
+        <!-- IE compatibility mode -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- external CSS -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <!-- semantic HTML tags to use:
+        • header = you can have several <header> elements in one HTML document, usually contains h1-h6, logo or icon.
+        • main = specifies the main content of a document. ONLY ONE in a document. NOT A CHILD of article, aside, footer, header, nav.
+        • nav = NOT all links of a document should be inside a <nav>. nav is intended only for major block of navigation links.
+        • section = represents a standalone section, typically, but not always, sections have a heading.
+        • article =  a document can have multiple articles in it, each should have a heading h1-h6, used for: blogs, comments, newspaper, forum post
+        • aside = defines some content aside from the content it is placed in, should be indirectly related to the surrounding content, sidebars or call-out boxes
+        • footer = you can have more in a document, used for: authorship info, copyright info contact info, sitemap, back to top links
+        • figure & figcaption = to mark up a photo in a document and to define a caption for the photo. NOTE: don't forget to use alt="" !!! 
+    -->
+
+
+        <main id="main-section">
+            <div id="side-menu">
+                <button>BA<span>KER</span></button>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="clr"></div>
+            <header class="top-headings">
+                <h1>We are at Baker</h1>
+                <h1>Starting a new journey!!</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nobis laudantium natus id ad
+                    expedita incidunt optio tempore cum nemo doloremque omnis consequatur laboriosam, officia molestias
+                    quasi beatae fugit repellendus!</p>
+            </header>
+            <section id="front-buttons">
+                <div class="center">
+                    <button>Download now</button>
+                    <button>Learn more</button>
+                </div>
+            </section>
+            <div id="arrow-pointer">
+                <div>&#8964</div>
+            </div>
+        </main>
+        <section>
+            <ul>
+                <li>
+                    <h2>Creative Concept</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab est quae numquam voluptatem totam
+                        aliquid facilis!</p>
+                </li>
+                <li>
+                    <h2>Amazing Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab est quae numquam voluptatem totam
+                        aliquid facilis!</p>
+                </li>
+                <li>
+                    <h2>Cost effective</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab est quae numquam voluptatem totam
+                        aliquid facilis!</p>
+                </li>
+                <li>
+                    <h2>Secure</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab est quae numquam voluptatem totam
+                        aliquid facilis!</p>
+                </li>
+            </ul>
+        </section>
+
+
+
+        <!-- Javascript (always right before closing body tag) -->
+        <script src="myscript.js"></script>
+    </body>
+
+</html>
